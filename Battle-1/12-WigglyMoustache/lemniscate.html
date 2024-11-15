@@ -1,0 +1,30 @@
+<p i>
+  <style>
+    body {
+      background: #1a4341;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    [i] {
+      width: 120px;
+      height: 50px;
+      position: relative;
+    }
+    [i]:before,
+    [i]:after {
+      content: "";
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      border: 10px solid #e8ba71;
+      border-radius: 50px 50px 0 50px;
+      rotate: -45deg;
+      left: -25px;
+    }
+    [i]:after {
+      rotate: 135deg;
+      left: 60px;
+    }
+  </style>
+</p>

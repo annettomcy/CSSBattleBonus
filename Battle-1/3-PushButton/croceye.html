@@ -1,0 +1,36 @@
+<p j></p>
+<p i></p>
+<style>
+  body {
+    background: #16c172;
+    display: grid;
+    place-items: center;
+  }
+  p[i],
+  p[j] {
+    width: 100px;
+    height: 100px;
+  }
+  p[i] {
+    border-radius: 50%;
+    background: #f9cb40;
+    position: fixed;
+  }
+  p[j] {
+    border-radius: 50% 0;
+    background: #584b53;
+    box-shadow: 0 0 0 10px #584b53;
+    transform: rotate(45deg);
+  }
+  p[i]:before {
+    content: "";
+    width: 70px;
+    height: 70px;
+    background: #2f3537;
+    border-radius: 100% 0;
+    rotate: 135deg;
+    position: absolute;
+    left: 15px;
+    top: 15px;
+  }
+</style>

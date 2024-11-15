@@ -1,0 +1,43 @@
+<p i></p>
+<p j></p>
+<p k></p>
+<p l></p>
+<div></div>
+<style>
+  * {
+    margin: 0;
+  }
+  body {
+    background: #f9cb77;
+    border: 20px solid #be7c4d;
+  }
+  p {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #2f4858;
+  }
+  p[i] {
+    top: 0;
+    left: 0;
+  }
+  p[j] {
+    bottom: 0;
+    right: 0;
+  }
+  p[k] {
+    top: 0;
+    right: 0;
+  }
+  p[l] {
+    bottom: 0;
+    left: 0;
+  }
+  div {
+    position: fixed;
+    inset: 0;
+    background: #da3e52;
+    clip-path: circle(40px at center);
+  }
+</style>

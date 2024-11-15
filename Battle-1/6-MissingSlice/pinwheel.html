@@ -1,0 +1,48 @@
+<div>
+  <p i></p>
+  <p j></p>
+  <p k></p>
+</div>
+<p c></p>
+<style>
+  body {
+    background: #fafffd;
+  }
+  div {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+  }
+  div,
+  [c] {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  p {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 100% 0 0 0;
+    transform-origin: bottom right;
+  }
+
+  [i] {
+    background: #3c91e6;
+  }
+  [j] {
+    background: #9ccf26;
+    transform: rotate(120deg);
+  }
+  [k] {
+    background: #fa824c;
+    transform: rotate(240deg);
+  }
+  [c] {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #0d3b66;
+    z-index: 1;
+  }
+</style>
