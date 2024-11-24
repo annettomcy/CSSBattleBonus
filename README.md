@@ -11,9 +11,7 @@ You can find my solution to each target here. Furthermore, to challenge myself f
 </p>
 Feel free to attempt these side quest targets and put up your solutions. I will not minify the solutions to these so that it is readable.
 
-<br/>
-
-**Disclaimer:**
+<br/>**Disclaimer:**
 - I am making up these bonus targets as I go, so any exact resemblance to future targets on CSS Battle is purely coincidental.
 - The bonus targets are ones I created for personal CSS Battle practice, not an official CSS Battle example.
 - I am fully aware that there are numerous better ways of attempting these questions. Its still a work in progress, so I am welcome to any suggestions to better my solution. 
