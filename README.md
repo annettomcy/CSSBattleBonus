@@ -29,7 +29,7 @@ Feel free to attempt these side quest targets and put up your solutions. I will 
 
 CSS minifier - https://www.minifier.org/
 
-Color palettes - https://coolors.co
+Color palettes - [https://coolors.co/](https://coolors.co/?ref=6795e834a42f2c000baf7257)
 
 Color gradients = https://cssgradient.io/
 
